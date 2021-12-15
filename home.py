@@ -1,8 +1,6 @@
-from subprocess import call
 import speech_recognition as sr
 import serial
 from time import sleep
-import codecs
 import RPi.GPIO as GPIO
 r=sr.Recognizer()
 bulb1=7
