@@ -5,6 +5,7 @@ import RPi.GPIO as GPIO
 r=sr.Recognizer()
 bulb1=7
 bulb2=5
+bulb3=3
 bulb1sts=0
 bulb2sts=0
 def listen():
